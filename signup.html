@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style-login.css">
+    <title>book keeping system</title>
+</head>
+<body>
+    <div class="container" id="registration">
+        <div class="main">
+        <h2> signup Boock keeping </h2>
+        <form id="form_id" method="post" name="myform">
+            <label>Business Name :</label>
+        <input type="text" name="Business Name" id="businessName" required/>
+        <label>User Email :</label>
+        <input type="email" name="your Email" id="email" required/>
+        <label>Password :</label>
+        <input type="password" name="password" id="password" required/>
+        <label>Select Country :</label>
+        <select name="country">
+            <option selected="" value="Default">(Please select a country)</option>
+            <option value="palwstine">Palestine</option>
+            <option value="canada">Canada</option>
+            <option value="india">India</option>
+            <option value="russia">Russia</option>
+            <option value="usa">USA</option>
+            </select>
+            <label>Select Currency :</label>
+            <select name="currency">
+                <option selected="" value="Default">(Please select a currency)</option>
+                <option value="dolar">Dolar</option>
+                <option value="reyal">reyal</option>
+                <option value="shakel">shakel</option>
+                </select>
+        <input type="button" value="Login" id="submit" onclick="validate()"/>
+        </form>
+        
+        </div>
+        </div>
+
+
+
+        <script src="script.js"></script>
+</body>
+</html>
