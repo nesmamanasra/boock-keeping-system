@@ -41,7 +41,7 @@ font-weight: bold;
 center{
 font-size:32px;
 }
-input[type=button]{
+button{
 color:#fff;
 font-size: 16px;
 background: #e09f80;
@@ -53,6 +53,13 @@ border-radius: 5px;
 padding: 10px 0;
 outline:none;
 }
-input[type=button]:hover{
+button:hover{
 background: #B09B71;
+}
+.link{
+    text-decoration: none;
+    color: #464646;
+}
+.link:hover{
+    color: #a17a2a;
 }
