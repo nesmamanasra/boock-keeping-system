@@ -9,7 +9,7 @@ function displayDetails(){
     if(!name||!money||!date){
         alert("Please fill all the boxes");
         return;
-    }
+        }
     let display=document.getElementById("display");
     let newRow =display.insertRow(row);
     
