@@ -1,6 +1,5 @@
 let entery=document.getElementById("entery");
 entery.addEventListener("click",displayDetails);
-
 var row =1;
 function displayDetails(){
     let name = document.getElementById("name").value;
@@ -11,7 +10,6 @@ function displayDetails(){
         alert("Please fill all the boxes");
         return;
     }
-
     let display=document.getElementById("display");
     let newRow =display.insertRow(row);
     
@@ -23,6 +21,4 @@ function displayDetails(){
     cell2.innerHTML=money;
     cell3.innerHTML=date;
     row++;
-    
-
 }
