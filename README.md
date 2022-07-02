@@ -36,5 +36,11 @@ Here is where the data is stored
 
 ![local](https://user-images.githubusercontent.com/52491098/177001886-a13eb19d-2633-41d2-9b41-f814ba0a0a73.PNG)
 
+### main page 
+
+After successfully logging in, we go directly to the main page, which is the main page, where there is simple information and a button for both payment and receipt
+
+![main](https://user-images.githubusercontent.com/52491098/177002076-33917d71-f602-4027-adff-8a8870ecf3b1.PNG)
+
 
 
