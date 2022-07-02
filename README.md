@@ -10,7 +10,7 @@ In this project, we will create an accounting system that contains three users w
 I will attach the project link to you and based on this document we have analyzed the system and started working 
 https://docs.google.com/document/d/1ll1cwabSHxe0wHO5d-5Vahcg1f1zOqISgKHCxiRUCFc/edit
 
-## Bages on my system 
+## Pages on we system 
 ### Sign in 'interface'
 When we run the system, the login page appears. From here, in case you are already registered, you just need to write your email and password
 
