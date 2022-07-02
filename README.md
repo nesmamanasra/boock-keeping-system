@@ -20,7 +20,9 @@ When we run the system, the login page appears. From here, in case you are alrea
 If you do not have an account, click on the word asign up on the login page
 Then a new page will appear with you to log in
 The data is stored in the local storage
+
 1- show page
+
 ![sign-up](https://user-images.githubusercontent.com/52491098/177000226-b44543a9-dca1-4ba8-8bfa-04bac19105a4.PNG)
 
 
