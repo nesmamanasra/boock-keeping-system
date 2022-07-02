@@ -30,3 +30,11 @@ The data is stored in the local storage
 
 
 ![create](https://user-images.githubusercontent.com/52491098/177001614-71d64b0d-37a1-4808-93c0-959de285da55.PNG)
+
+* local Storage
+Here is where the data is stored
+
+![local](https://user-images.githubusercontent.com/52491098/177001886-a13eb19d-2633-41d2-9b41-f814ba0a0a73.PNG)
+
+
+
