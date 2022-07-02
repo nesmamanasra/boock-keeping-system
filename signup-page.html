@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SignIn</title>
+    <link rel="stylesheet"  href="css/style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="main">
+        <h2>SIGNUP FORM</h2>
+        <form role="form" onsubmit="signUp(event);" autocomplete="off">
+            <div class="form-group">
+                <input type="text" name="bname" id="bname" placeholder="Business Name" required>
+            </div>
+            <div class="form-group">
+                <input type="email" name="email" id="email" placeholder="Email Address" required>
+            </div>
+            <div class="form-group">
+                <input type="password" name="pwd" id="pwd" placeholder="Password" required>
+            </div>
+            <div class="form-group">
+                <select id="country">
+                    <option selected="" value="Default">(Please select a country)</option>
+                    <option value="palwstine">Palestine</option>
+                    <option value="canada">Canada</option>
+                    <option value="india">India</option>
+                    <option value="russia">Russia</option>
+                    <option value="usa">USA</option>
+                    </select>
+            </div>
+            <div class="form-group">
+                <select id="currency">
+                    <option selected="" value="Default">(Please select a currency)</option>
+                    <option value="dolar">Dolar</option>
+                    <option value="reyal">reyal</option>
+                    <option value="shakel">shakel</option>
+                    </select>
+            </div>
+            <div class="form-group">
+                <button type="submit">Sign Up</button>
+            </div>
+        </form>
+        <p>Already a member? <a href="login-page.html" class="link">Sign In</a></p>
+        </div>
+    </div>
+
+    <script type="text/javascript" src="scriptUser.js"></script>
+</body>
+</html>
