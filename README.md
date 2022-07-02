@@ -2,7 +2,7 @@
 ## Initial system, scribble design
 My team and I analyzed the system by scribbling with a flowchart design so that it gives us an initial look at how the system works and how it will be programmed
 Here you can find a picture here with some scribbles
-![sys](https://user-images.githubusercontent.com/52491098/177000007-ef9a13c4-e9a7-4bbb-8ea8-cee4071b723e.jpeg)
+![sys](https://user-images.githubusercontent.com/52491098/177000059-9896f547-5685-4879-ac6b-5646ac017936.PNG)
 
 ## Why did we do this ?
 In this project, we will create an accounting system that contains three users who enter companies, employees, and money that has been paid and withdrawn using HTML CSS JS programming languages. Within the internship is a frontend developer
