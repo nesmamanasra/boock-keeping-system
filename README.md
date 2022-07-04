@@ -45,14 +45,14 @@ After successfully logging in, we go directly to the main page, which is the mai
 
 
 ### Payment page
-when you click submitting" add payment", moved on a new page and show the form and tables and you can insert data on form for then show data in table
+when you click submitting" add payment", moved on a new page and show the form and tables and you can insert data on form for then show data in table, after that you can update data or delete when you click on button
 
 
 ![pay](https://user-images.githubusercontent.com/52491098/177137999-f7a18a53-6a57-441e-a2bc-0bd43d67725c.PNG)
 
 
 ### Receipt page
-when you click submitting" add receipt", moved on a new page and show the form and tables and you can insert data on form for then show data in table
+when you click submitting" add receipt", moved on a new page and show the form and tables and you can insert data on form for then show data in table, after that you can update data or delete when you click on button
 
 ![rec](https://user-images.githubusercontent.com/52491098/177138076-63aad00b-cb13-4cd4-9632-1bcefd108fa2.PNG)
 
