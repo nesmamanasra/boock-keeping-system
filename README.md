@@ -56,5 +56,18 @@ when you click submitting" add receipt", moved on a new page and show the form a
 
 ![rec](https://user-images.githubusercontent.com/52491098/177138076-63aad00b-cb13-4cd4-9632-1bcefd108fa2.PNG)
 
+### Report Page
+when you click submitting" report", moved to a new page and show the form "data" and buttons 'balance sheet', 'customer',
+'employee', and you can insert the date on the form for then click on the what you need of this buttons after then show the date in the table and the total between payment and receipt if you choose balance sheet, and if you choose customer show id and name customer, and if you choose employee show id and employee
+
+
+![report](https://user-images.githubusercontent.com/52491098/177140451-78eac630-e20d-45fd-92d7-33cc5c98dbb2.PNG)
+
+
+
+
+
+
+
 
 
