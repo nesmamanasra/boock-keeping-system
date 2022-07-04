@@ -40,7 +40,6 @@ Here is where the data is stored
 
 After successfully logging in, we go directly to the main page, which is the main page, where there is simple information and a button for both payment and receipt
 
-![main](https://user-images.githubusercontent.com/52491098/177002076-33917d71-f602-4027-adff-8a8870ecf3b1.PNG)
 
-
+![main](https://user-images.githubusercontent.com/52491098/177136342-f7d6ac8f-a867-429a-bc6e-945e716a625d.PNG)
 
