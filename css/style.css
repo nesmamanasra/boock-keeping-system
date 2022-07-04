@@ -42,7 +42,6 @@ center{
 font-size:32px;
 }
 button{
-margin: 10px;
 color:#fff;
 font-size: 16px;
 background: #e09f80;
@@ -53,6 +52,7 @@ width: 100%;
 border-radius: 5px;
 padding: 10px 0;
 outline:none;
+margin-top: 10px;
 }
 button:hover{
 background: #B09B71;
@@ -64,9 +64,14 @@ background: #B09B71;
 .link:hover{
     color: #a17a2a;
 }
+.link-btn{
+    text-decoration: none;
+    color: #fff;
+}
 .customers {
     width: 100%;
-    margin-top: 30px;
+    margin-top: 10px;
+    margin-bottom: 30px;
 }
 .customers td, .customers th {
     border: 1px solid #ddd;
@@ -84,4 +89,9 @@ background: #B09B71;
     text-align: left;
     background-color: #e09f80;
     color: white;
+}
+#deleteAll{
+    width:400px;
+    margin-left: 25%;
+    margin-top: 10px;
 }
