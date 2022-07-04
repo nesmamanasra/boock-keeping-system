@@ -10,26 +10,32 @@
 <body>
     <div class="container">
         <div class="main">
-        <h2>Add Payment</h2>
+        <h2>Report page</h2>
         <form role="form" autocomplete="off" >
             <div class="form-group">
-                <input type="text" name="namePayment" id="namePayment" placeholder="Enter Your Name" required>
+                <label >From: </label>
+                <input type="date" name="fromDate" id="fromDate" placeholder="Enter Your Date" required>
+            </div>
+
+            <div class="form-group">
+                <label >To: </label>
+                <input type="date" name="toDate" id="toDate" placeholder="Enter Your Date" required>
             </div>
             <div class="form-group">
-                <input type="number" name="payNum" id="payNum" placeholder="Enter Payment" required>
+                <button type="submit" id="balance">Balance Sheet</button>
             </div>
             <div class="form-group">
-                <input type="date" name="datePayment" id="datePayment" placeholder="Enter Date" required>
+                <button type="submit" id="customer">Customer report</button>
             </div>
             <div class="form-group">
-                <button type="submit" id="submit">Add Payment</button>
+                <button type="submit" id="employee">Employee report</button>
             </div>
         </form>    
     </div>
 <!-- 
     <div id="deleteAll">
     </div> -->
-    <table class="customers">
+    <!-- <table class="customers">
         <tr>
           <th>ID</th>
           <th>Company</th>
@@ -42,7 +48,7 @@
          
         </tbody>
       </table>
-    </div>
+    </div> -->
      
     <script type="text/javascript" src="paymentCrud.js"></script>
 </body>
