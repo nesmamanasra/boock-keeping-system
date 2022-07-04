@@ -38,8 +38,23 @@ Here is where the data is stored
 
 ### Main page 
 
-After successfully logging in, we go directly to the main page, which is the main page, where there is simple information and a button for both payment and receipt
+After successfully logging in, we go directly to the main page, which is the main page, where there is simple information and a button for both payment and receipt and report
 
 
 ![main](https://user-images.githubusercontent.com/52491098/177136342-f7d6ac8f-a867-429a-bc6e-945e716a625d.PNG)
+
+
+### Payment page
+when you click submitting" add payment", moved on a new page and show the form and tables and you can insert data on form for then show data in table
+
+
+![pay](https://user-images.githubusercontent.com/52491098/177137999-f7a18a53-6a57-441e-a2bc-0bd43d67725c.PNG)
+
+
+### Receipt page
+when you click submitting" add receipt", moved on a new page and show the form and tables and you can insert data on form for then show data in table
+
+![rec](https://user-images.githubusercontent.com/52491098/177138076-63aad00b-cb13-4cd4-9632-1bcefd108fa2.PNG)
+
+
 
