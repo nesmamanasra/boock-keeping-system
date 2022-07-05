@@ -2,7 +2,7 @@ class coustemer  {
     name;
     date;
     salary;
-
+    
     constructor(nameCoustomer,date,salary){
         this.setName(nameCoustomer);
         this.setDate(date);
@@ -31,7 +31,6 @@ class coustemer  {
     getCurrncy(){
        this.currncy();
     }
-
     getallFunction(){
         return `${this.getName()} ${this.getDate()} ${this.getCurrncy()}`;
     }

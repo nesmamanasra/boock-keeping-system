@@ -20,7 +20,7 @@ submit.onclick = function(){
         payNum : payNum.value,
         datePayment: datePayment.value 
     }
-  
+
     if(mood === 'create'){
         dataPro.push(newProduct);
     }else{
@@ -53,7 +53,7 @@ submit.onclick = function(){
 
    // delete
    function deleteData(i){
-        dataPro.splice(i,1);
+    dataPro.splice(i,1);
         localStorage.payment = JSON.stringify(dataPro);
         showData()
    }

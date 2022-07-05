@@ -4,6 +4,7 @@ class Users{
     buisness_name;
     county;
     currency;
+    
     constructor(email,password,buisness_name,county,currency){
         this.setEmail(email);
         this.setPassword(password);
@@ -61,4 +62,3 @@ class Users{
         return this.currency;
     }
 }
-
