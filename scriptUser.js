@@ -18,11 +18,10 @@ const signUp = e => {
         alert("Account Created.\n\nPlease Sign In using the link below.");
     }
     else{
-        alert("Ooopppssss... Duplicate found!!!\nYou have already sigjned up");
+        alert("Ooopppssss... Duplicate found!!!\nYou have already signed up");
     }
     e.preventDefault();
 }
-
 function signIn(e) {
     let email = document.getElementById('email').value, pwd = document.getElementById('pwd').value;
     let formData = JSON.parse(localStorage.getItem('formData')) || [];
