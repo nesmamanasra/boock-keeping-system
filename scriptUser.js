@@ -15,8 +15,6 @@ const signUp = e => {
     if(!exist){
         formData.push({ bname, email, pwd, country, currency});
         localStorage.setItem('formData', JSON.stringify(formData));
-        document.querySelector('form').reset();
-        document.getElementById('bname').focus();
         alert("Account Created.\n\nPlease Sign In using the link below.");
     }
     else{
