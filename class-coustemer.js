@@ -31,10 +31,7 @@ class coustemer  {
     getCurrncy(){
        this.currncy();
     }
-
     getallFunction(){
         return `${this.getName()} ${this.getDate()} ${this.getCurrncy()}`;
     }
 }
-
-let customer1 = new coustemer('cotode','1-2-2022','3000$');
