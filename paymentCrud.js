@@ -20,7 +20,9 @@ submit.onclick = function(){
         payNum : payNum.value,
         datePayment: datePayment.value 
     }
-  
+   
+   
+    //console.log(newProduct);
     if(mood === 'create'){
         dataPro.push(newProduct);
     }else{
@@ -31,6 +33,9 @@ submit.onclick = function(){
     localStorage.setItem('payment',JSON.stringify(dataPro))
     showData();
 }
+
+// clear data
+
 
  // show data
  function showData(){
@@ -48,6 +53,15 @@ submit.onclick = function(){
    `
     };
     document.getElementById('tbody').innerHTML = tabel;
+         // show delete all btn 
+        //  let deleteData = document.getElementById('deleteAll');
+        //  if(dataPro.length > 1){
+        //     deleteData.innerHTML = `
+        //     <td><button onclick='deleteAll()'>Delete All (${dataPro.length})</button></td>
+        //     `
+        //  }else{
+        //     deleteData.innerHTML = '';
+        //  }
    }
    showData()
 
@@ -57,7 +71,11 @@ submit.onclick = function(){
         localStorage.payment = JSON.stringify(dataPro);
         showData()
    }
-
+//    // delete All
+//    function deleteAll(){
+//       localStorage.clear()
+//       showData();
+//    }
 //function update data
 function updateData(i){
     namePayment.value = dataPro[i].namePayment;
