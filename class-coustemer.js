@@ -2,7 +2,7 @@ class coustemer  {
     name;
     date;
     salary;
-    
+
     constructor(nameCoustomer,date,salary){
         this.setName(nameCoustomer);
         this.setDate(date);

@@ -61,4 +61,4 @@ class Users{
     getCurrency(){
         return this.currency;
     }
-}
+
