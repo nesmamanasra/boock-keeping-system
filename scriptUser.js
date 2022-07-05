@@ -15,13 +15,16 @@ const signUp = e => {
     if(!exist){
         formData.push({ bname, email, pwd, country, currency});
         localStorage.setItem('formData', JSON.stringify(formData));
+        document.querySelector('form').reset();
+        document.getElementById('bname').focus();
         alert("Account Created.\n\nPlease Sign In using the link below.");
     }
     else{
-        alert("Ooopppssss... Duplicate found!!!\nYou have already signed up");
+        alert("Ooopppssss... Duplicate found!!!\nYou have already sigjned up");
     }
     e.preventDefault();
 }
+
 function signIn(e) {
     let email = document.getElementById('email').value, pwd = document.getElementById('pwd').value;
     let formData = JSON.parse(localStorage.getItem('formData')) || [];

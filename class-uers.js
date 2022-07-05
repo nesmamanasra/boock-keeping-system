@@ -62,3 +62,6 @@ class Users{
     }
 }
 
+let email=document.getElementById('email').value;
+let password =document.getElementById('password').value; 
+let buisness_name =document.getElementById('business_name').value;
