@@ -1,4 +1,37 @@
 # boock-keeping-system
+
+## Bookkeeping App
+In this project, you will develop a Bookkeeping app that supports multiple accounts with simple user interfaces. Each account can have up to 3 users and insert as many entries as needed.
+
+### Functional Requirments
+- Users should log in by email and password before using the system
+- A User should be able to register a new account with the following information 
+     - Business Name
+     - County (select list)
+     - Currency
+- A User should be able to add another two users to the account if needed
+- Each account user should be able to insert entries to customers, employees,  payments, and receipts.
+     - Each payment or receipt should have the following fields: amount, date, and payee (for payments) and paid by (for receipts).
+     - Customers and employees should have at least a name field. 
+     
+### Reports
+
+The system should be able to issue the following reports within a given period (user should be able to select from and to date)
+- Balance Sheet 
+      - Should show all payments and receipts and show the difference between the sum of two  
+- Customer report by name
+- Employee report by name
+
+### Guidelines
+- Group based project
+- Submit is only via GitHub or BitBucket
+- Repo with a single commit message will not be accepted, though commit your work incrementally to the repo. 
+- Follow best practices, conventions, clean code, and design patterns you learned so far during the training. 
+- Use HTML Forms and Tables, no advanced UI is required. 
+- The deadline is July 2, 2022
+Have Fun
+
+# First
 ## Initial system, scribble design
 My team and I analyzed the system by scribbling with a flowchart design so that it gives us an initial look at how the system works and how it will be programmed
 Here you can find a picture here with some scribbles
