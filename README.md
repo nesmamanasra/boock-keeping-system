@@ -28,8 +28,8 @@ The system should be able to issue the following reports within a given period (
 - Repo with a single commit message will not be accepted, though commit your work incrementally to the repo. 
 - Follow best practices, conventions, clean code, and design patterns you learned so far during the training. 
 - Use HTML Forms and Tables, no advanced UI is required. 
-- The deadline is July 2, 2022
-Have Fun
+- The deadline is July 5, 2022
+
 
 # First
 ## Initial system, scribble design
